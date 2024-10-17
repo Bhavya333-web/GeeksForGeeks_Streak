@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 class Solution
 {
 public:
@@ -19,7 +18,6 @@ public:
         return (ch == 2) || (ch == 0 && is_sorted(arr.begin(), arr.end()));
     }
 };
-
 int main()
 {
     vector<int> arr = {3, 1, 2, 4}; 
