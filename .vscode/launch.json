@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "d:/Documents/GeeksForGeeks/Difficulty Level - Easy/SingleNumber",
+      "program": "d:/Documents/GeeksForGeeks/Difficulty Level - Easy/SingleNumber/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
