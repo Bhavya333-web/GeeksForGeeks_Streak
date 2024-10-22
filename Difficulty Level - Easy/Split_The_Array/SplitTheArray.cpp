@@ -8,12 +8,9 @@ public:
         for (int i = 0; i < n; i++) {
             total ^= arr[i];
         }
-
-        // If the XOR is not 0, there can be no valid groups
         if (total != 0) {
             return 0;
         } else {
-            // Calculate number of valid groups using modular exponentiation
             long long result = 1;  // Start with 1 for 2^0
             for (int i = 0; i < n - 1; i++) {
                 result = (result * 2) % 1000000007;  // Calculate 2^(n-1) % 1000000007
