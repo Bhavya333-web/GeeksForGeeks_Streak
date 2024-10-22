@@ -24,8 +24,6 @@ public:
         priority_queue<DLLNode*, vector<DLLNode*>, compare> minHeap;
 
         DLLNode *newHead = NULL, *last = NULL;
-
-        // Push the first k+1 elements into the min-heap
         for (int i = 0; head && i <= k; i++) {
             minHeap.push(head);
             head = head->next;
