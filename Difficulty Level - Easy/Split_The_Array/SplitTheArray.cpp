@@ -11,11 +11,11 @@ public:
         if (total != 0) {
             return 0;
         } else {
-            long long result = 1;  // Start with 1 for 2^0
+            long long result = 1; 
             for (int i = 0; i < n - 1; i++) {
-                result = (result * 2) % 1000000007;  // Calculate 2^(n-1) % 1000000007
+                result = (result * 2) % 1000000007;  
             }
-            return (result - 1 + 1000000007) % 1000000007;  // Subtract 1 and ensure non-negative
+            return (result - 1 + 1000000007) % 1000000007; 
         }
     }
 };
