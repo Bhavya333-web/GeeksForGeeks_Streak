@@ -1,10 +1,8 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
   public:
      int sameOccurrence(vector<int>& arr, int x, int y) {
-        // code here
         int xcount=0,ycount=0,ans=0;
         unordered_map<int,int>m;
         m[0]=1;
