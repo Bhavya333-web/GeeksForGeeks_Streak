@@ -30,8 +30,6 @@ public:
         while (!minHeap.empty()) {
             DLLNode *minNode = minHeap.top();
             minHeap.pop();
-
-            // If this is the first node, set it as new head
             if (newHead == NULL) {
                 newHead = minNode;
                 newHead->prev = NULL;
