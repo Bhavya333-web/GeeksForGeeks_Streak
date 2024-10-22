@@ -5,8 +5,6 @@ public:
     int countgroup(vector<int>& arr) { 
         int n = arr.size();
         long long total = 0;
-        
-        // Calculate XOR of all elements
         for (int i = 0; i < n; i++) {
             total ^= arr[i];
         }
