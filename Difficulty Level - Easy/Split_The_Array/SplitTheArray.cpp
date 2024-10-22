@@ -19,8 +19,6 @@ public:
         }
     }
 };
-
-//{ Driver Code Starts.
 int main() {
     string ts;
     getline(cin, ts);
@@ -39,5 +37,3 @@ int main() {
         cout << ans << endl;
     }
 }
-
-// } Driver Code Ends
