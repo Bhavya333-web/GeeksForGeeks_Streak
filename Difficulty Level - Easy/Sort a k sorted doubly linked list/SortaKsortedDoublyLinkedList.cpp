@@ -22,14 +22,11 @@ public:
     DLLNode *sortAKSortedDLL(DLLNode *head, int k) {
         if (head == NULL) return head;
         priority_queue<DLLNode*, vector<DLLNode*>, compare> minHeap;
-
         DLLNode *newHead = NULL, *last = NULL;
         for (int i = 0; head && i <= k; i++) {
             minHeap.push(head);
             head = head->next;
         }
-
-        // Process the remaining elements in the linked list
         while (!minHeap.empty()) {
             // Extract the minimum element from the heap
             DLLNode *minNode = minHeap.top();
