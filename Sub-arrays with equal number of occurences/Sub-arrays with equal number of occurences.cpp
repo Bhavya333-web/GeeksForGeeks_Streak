@@ -1,11 +1,6 @@
 //{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
-
-
-// } Driver Code Ends
-
-
 class Solution {
   public:
      int sameOccurrence(vector<int>& arr, int x, int y) {
@@ -23,8 +18,6 @@ class Solution {
         return ans;
     }
 };
-
-//{ Driver Code Starts.
 int main() {
     string ts;
     getline(cin, ts);
