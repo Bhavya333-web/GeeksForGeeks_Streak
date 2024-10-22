@@ -19,11 +19,8 @@ struct compare {
 };
 class Solution {
 public:
-    // Function to sort a k-sorted doubly linked list
     DLLNode *sortAKSortedDLL(DLLNode *head, int k) {
         if (head == NULL) return head;
-
-        // Min-heap to store the k+1 elements
         priority_queue<DLLNode*, vector<DLLNode*>, compare> minHeap;
 
         DLLNode *newHead = NULL, *last = NULL;
