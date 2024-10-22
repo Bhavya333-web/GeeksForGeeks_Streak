@@ -28,7 +28,6 @@ public:
             head = head->next;
         }
         while (!minHeap.empty()) {
-            // Extract the minimum element from the heap
             DLLNode *minNode = minHeap.top();
             minHeap.pop();
 
