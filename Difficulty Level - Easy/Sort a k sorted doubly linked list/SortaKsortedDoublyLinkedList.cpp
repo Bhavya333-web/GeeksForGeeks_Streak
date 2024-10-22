@@ -39,15 +39,11 @@ public:
                 minNode->prev = last;
                 last = minNode;
             }
-
-            // If more elements exist in the original list, push them into the heap
             if (head) {
                 minHeap.push(head);
                 head = head->next;
             }
         }
-
-        // Mark the end of the sorted doubly linked list
         last->next = NULL;
 
         return newHead;
