@@ -1,8 +1,5 @@
-
 #include <bits/stdc++.h>
 using namespace std;
-
-// a node of the doubly linked list
 class DLLNode {
   public:
     int data;
@@ -15,10 +12,6 @@ class DLLNode {
         this->prev = NULL;
     }
 };
-
-
-// } Driver Code Ends
-
 struct compare {
     bool operator()(DLLNode* a, DLLNode* b) {
         return a->data > b->data;
