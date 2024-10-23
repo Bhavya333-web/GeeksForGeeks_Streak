@@ -59,10 +59,7 @@ void push(DLLNode **tailRef, int new_data) {
 
     (*tailRef) = newNode;
 }
-
-// Function to print nodes in a given doubly linked list
 void printList(DLLNode *head) {
-    // if list is empty
     if (head == NULL)
         return;
 
