@@ -50,16 +50,10 @@ public:
     }
 };
 void push(DLLNode **tailRef, int new_data) {
-    // allocate node
     DLLNode *newNode = new DLLNode(new_data);
-
-    // since we are adding at the end,
-    // next is NULL
     newNode->next = NULL;
 
     newNode->prev = (*tailRef);
-
-    // change next of tail node to new node
     if ((*tailRef) != NULL)
         (*tailRef)->next = newNode;
 
