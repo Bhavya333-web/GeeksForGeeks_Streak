@@ -68,8 +68,6 @@ void printList(DLLNode *head) {
         head = head->next;
     }
 }
-
-// Driver
 int main() {
     int t;
     cin >> t;
@@ -80,8 +78,6 @@ int main() {
         getline(cin, input);
         stringstream ss(input);
         int number;
-
-        // Read numbers from the input line
         while (ss >> number) {
             arr.push_back(number);
         }
