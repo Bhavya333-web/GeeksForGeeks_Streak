@@ -88,8 +88,6 @@ int main() {
 
         DLLNode *head = new DLLNode(arr[0]);
         DLLNode *tail = head;
-
-        // Check if the array is empty
         for (size_t i = 1; i < arr.size(); ++i) {
             push(&tail, arr[i]);
         }
