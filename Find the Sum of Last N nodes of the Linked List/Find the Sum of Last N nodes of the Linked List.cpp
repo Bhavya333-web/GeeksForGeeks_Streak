@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,13 +10,9 @@ struct Node {
         next = NULL;
     }
 };
-
-
-// } Driver Code Ends
 class Solution {
   public:
     int sumOfLastN_Nodes(struct Node* head, int n) {
-        // Code here
         int sum=0;
         Node* curr=head;
         for( ;curr!=NULL && n>0;curr=curr->next){
