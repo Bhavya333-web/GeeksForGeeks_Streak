@@ -49,11 +49,6 @@ public:
         return newHead;
     }
 };
-        
-//{ Driver Code Starts.
-
-// Function to insert a node at the end
-// of the Doubly Linked List
 void push(DLLNode **tailRef, int new_data) {
     // allocate node
     DLLNode *newNode = new DLLNode(new_data);
