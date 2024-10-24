@@ -3,7 +3,6 @@ using namespace std;
 class Solution {
   public:
     vector<int> modifyAndRearrangeArray(vector<int> &arr) {
-        // Complete the function
         vector<int> ans;
         int n = arr.size();
         for(int i=0;i<n-1;i++){
