@@ -27,8 +27,6 @@ void append(struct Node **head_ref, int new_data) {
     struct Node *last = *head_ref;     
     new_node->data = new_data;
 
-    /* 3. This new node is going to be the last node, so make next
-          of it as NULL*/
     new_node->next = NULL;
 
     /* 4. If the Linked List is empty, then make the new node as head */
