@@ -21,12 +21,10 @@ public:
     }
 };
 void append(struct Node **head_ref, int new_data) {
-    /* 1. allocate node */
+    
     struct Node *new_node = (struct Node *)malloc(sizeof(struct Node));
 
-    struct Node *last = *head_ref; /* used in step 5*/
-
-    /* 2. put in the data  */
+    struct Node *last = *head_ref;     
     new_node->data = new_data;
 
     /* 3. This new node is going to be the last node, so make next
