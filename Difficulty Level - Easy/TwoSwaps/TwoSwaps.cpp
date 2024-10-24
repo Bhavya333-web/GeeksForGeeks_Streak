@@ -29,7 +29,7 @@ int main()
     }
     else
     {
-        cout << "No" << endl; // Output if the array cannot be sorted
+        cout << "No" << endl; 
     }
     return 0;
 }
