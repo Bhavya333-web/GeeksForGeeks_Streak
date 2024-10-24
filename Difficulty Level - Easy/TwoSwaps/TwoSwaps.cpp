@@ -25,7 +25,7 @@ int main()
     bool ans = ob.checkSorted(arr); 
     if (ans)
     {
-        cout << "Yes" << endl; // Output if the array can be sorted with the allowed swaps
+        cout << "Yes" << endl; 
     }
     else
     {
