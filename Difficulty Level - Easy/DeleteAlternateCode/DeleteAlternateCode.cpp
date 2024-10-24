@@ -1,4 +1,3 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,10 +10,6 @@ struct Node {
         next = NULL;
     }
 };
-
-
-// } Driver Code Ends
-
 class Solution {
 public:
     void deleteAlt(struct Node *head) {
