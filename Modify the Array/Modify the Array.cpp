@@ -1,11 +1,5 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
-
-
-// } Driver Code Ends
-// User function Template for C++
-
 class Solution {
   public:
     vector<int> modifyAndRearrangeArray(vector<int> &arr) {
