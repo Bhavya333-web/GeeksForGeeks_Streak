@@ -20,12 +20,6 @@ public:
         }
     }
 };
-
-
-//{ Driver Code Starts.
-
-/* Given a reference (pointer to pointer) to the head
-   of a list and an int, appends a new node at the end  */
 void append(struct Node **head_ref, int new_data) {
     /* 1. allocate node */
     struct Node *new_node = (struct Node *)malloc(sizeof(struct Node));
