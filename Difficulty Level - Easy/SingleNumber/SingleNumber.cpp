@@ -11,11 +11,6 @@ public:
         return xora;
     }
 };
-
-    
-
-//{ Driver Code Starts.
-
 int main() {
     string ts;
     getline(cin, ts);
