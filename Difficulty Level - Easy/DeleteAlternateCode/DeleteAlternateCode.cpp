@@ -28,14 +28,10 @@ void append(struct Node **head_ref, int new_data) {
     new_node->data = new_data;
 
     new_node->next = NULL;
-
-    /* 4. If the Linked List is empty, then make the new node as head */
     if (*head_ref == NULL) {
         *head_ref = new_node;
         return;
     }
-
-    /* 5. Else traverse till the last node */
     while (last->next != NULL)
         last = last->next;
 
