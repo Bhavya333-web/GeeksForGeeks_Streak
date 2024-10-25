@@ -4,13 +4,10 @@ class Solution {
 
   public:
     vector<int> alternateSort(vector<int>& arr) {
-        // Your code goes here
         sort(arr.begin(),arr.end());
         vector<int> v;
-        int j=arr.size()-1;
-        
+        int j=arr.size()-1; 
         int k=0;
-        
         for(int i=0;i<arr.size();i++){
             
             
