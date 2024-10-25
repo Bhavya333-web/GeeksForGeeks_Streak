@@ -24,9 +24,6 @@ class Solution {
         return v;
     }
 };
-
-//{ Driver Code Starts.
-
 int main() {
     string ts;
     getline(cin, ts);
@@ -50,5 +47,3 @@ int main() {
     }
     return 0;
 }
-
-// } Driver Code Ends
