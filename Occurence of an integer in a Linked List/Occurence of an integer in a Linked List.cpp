@@ -1,4 +1,3 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,11 +10,6 @@ struct Node {
         next = NULL;
     }
 };
-
-
-// } Driver Code Ends
-
-
 class Solution {
   public:
     int count(struct Node* head, int key) {
