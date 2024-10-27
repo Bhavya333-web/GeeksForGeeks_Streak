@@ -5,13 +5,10 @@ class Solution {
     bool findTriplet(vector<int>& arr) {
         int n = arr.size();
         unordered_map<int, int>m;
-        
-        for(auto &i:arr) m[i]++;
-        
+        for(auto &i:arr) m[i]++;  
         for(int i=0; i<n-1; i++){
             for(int j=i+1; j<n; j++){
-                int sum = arr[i] + arr[j];
-                
+                int sum = arr[i] + arr[j]; 
                 if(arr[i]==0 && arr[j] == 0){
                     if(m[0] > 2) return true;
                 }
