@@ -12,10 +12,7 @@ class Solution {
             }
             else arr[i]=k;
         }
-        
-
-        return arr;
-        
+        return arr;        
     }
 };
 int main() {
