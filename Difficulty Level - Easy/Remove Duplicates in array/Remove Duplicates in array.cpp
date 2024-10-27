@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
-// } Driver Code Ends
 class Solution {
   public:
     vector<int> removeDuplicate(vector<int>& arr) {
@@ -17,6 +14,7 @@ class Solution {
             else arr[i]=k;
         }
         
+
         return arr;
         
     }
