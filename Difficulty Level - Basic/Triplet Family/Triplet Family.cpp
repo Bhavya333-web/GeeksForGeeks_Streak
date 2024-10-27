@@ -3,7 +3,6 @@ using namespace std;
 class Solution {
   public:
     bool findTriplet(vector<int>& arr) {
-        // satstar
         int n = arr.size();
         unordered_map<int, int>m;
         
