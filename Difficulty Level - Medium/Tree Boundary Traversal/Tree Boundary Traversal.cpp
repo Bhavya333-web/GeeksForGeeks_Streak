@@ -41,16 +41,11 @@ Node* buildTree(string str)
             break;
         currVal = ip[i];
         if(currVal != "N") {
-
-            // Create the right child for the current node
             currNode->right = newNode(stoi(currVal));
-
-            // Push it to the queue
             queue.push(currNode->right);
         }
         i++;
     }
-
     return root;
 }
 
