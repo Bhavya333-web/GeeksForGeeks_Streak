@@ -51,8 +51,7 @@ Node* buildTree(string str)
 class Solution {
 public:
     void traverseLeft(Node* root, vector<int>& vec) {
-    if (root == NULL || (root->left == NULL && root->right == NULL)) return;  // Fix base condition
-    
+    if (root == NULL || (root->left == NULL && root->right == NULL)) return; 
     vec.push_back(root->data);
     
     if (root->left != NULL) traverseLeft(root->left, vec);
@@ -88,16 +87,11 @@ vector<int> boundary(Node *root) {
     traverseLeft(root->left, v);
     traverseLeaf(root->left, v);
     traverseLeaf(root->right, v);
-    traverseRgt(root->right, v);  // Correct function call
+    traverseRgt(root->right, v); 
     
     return v;
 }
 };
-
-//{ Driver Code Starts.
-
-/* Driver program to test size function*/
-
 int main() {
     int t;
     string tc;
@@ -117,4 +111,3 @@ cout << "~" << "\n";
 }
     return 0;
 }
-// } Driver Code Ends
