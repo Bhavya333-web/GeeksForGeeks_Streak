@@ -64,13 +64,10 @@ class Solution {
         return head;
     }
 };
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     cin >> t;
-    cin.ignore(); // Ignore the newline character after reading t
+    cin.ignore(); 
 
     while (t--) {
         vector<int> arr;
@@ -104,5 +101,3 @@ int main() {
     }
     return 0;
 }
-
-// } Driver Code Ends
