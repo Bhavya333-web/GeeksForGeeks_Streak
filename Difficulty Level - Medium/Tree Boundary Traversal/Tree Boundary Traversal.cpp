@@ -1,17 +1,12 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 #define MAX_HEIGHT 100000
-
-// Tree Node
 struct Node
 {
     int data;
     Node* left;
     Node* right;
 };
-
-// Utility function to create a new Tree Node
 Node* newNode(int val)
 {
     Node* temp = new Node;
@@ -21,35 +16,19 @@ Node* newNode(int val)
 
     return temp;
 }
-
-
-// Function to Build Tree
 Node* buildTree(string str)
 {
-    // Corner Case
     if(str.length() == 0 || str[0] == 'N')
         return NULL;
-
-    // Creating vector of strings from input
-    // string after spliting by space
     vector<string> ip;
-
     istringstream iss(str);
     for(string str; iss >> str; )
         ip.push_back(str);
-
-    // Create the root of the tree
     Node* root = newNode(stoi(ip[0]));
-
-    // Push the root to the queue
     queue<Node*> queue;
     queue.push(root);
-
-    // Starting from the second element
     int i = 1;
     while(!queue.empty() && i < ip.size()) {
-
-        // Get and remove the front of the queue
         Node* currNode = queue.front();
         queue.pop();
 
