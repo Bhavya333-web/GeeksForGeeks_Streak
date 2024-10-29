@@ -18,8 +18,6 @@ void push(struct Node*& head_ref, int new_data) {
     new_node->next = head_ref;
     head_ref = new_node;
 }
-
-/* A utility function to print linked list */
 void printList(struct Node* node) {
     while (node != NULL) {
         printf("%d ", node->data);
