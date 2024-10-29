@@ -25,10 +25,6 @@ void printList(struct Node* node) {
     }
     printf("\n");
 }
-
-
-// } Driver Code Ends
-
 /* a node of the singly linked list
 struct node
 {
@@ -40,8 +36,6 @@ struct node
         next = NULL;
     }
 }; */
-
-// Solution class with quickSort function
 class Solution {
   public:
     struct Node* partition(struct Node* head, struct Node* last){
