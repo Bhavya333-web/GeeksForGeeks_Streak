@@ -1,12 +1,9 @@
-//{ Driver Code Starts
 #include <cstdio>
 #include <iostream>
 #include <sstream>
 #include <string>
 #include <vector>
 using namespace std;
-
-/* a node of the singly linked list */
 struct Node {
     int data;
     struct Node* next;
