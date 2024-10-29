@@ -48,23 +48,6 @@ Node* buildTree(string str)
     }
     return root;
 }
-
-
-
-
-
-
-
-
-
-// } Driver Code Ends
-/* A binary tree Node
-struct Node
-{
-    int data;
-    Node* left, * right;
-}; */
-
 class Solution {
 public:
     void traverseLeft(Node* root, vector<int>& vec) {
@@ -87,13 +70,13 @@ void traverseLeaf(Node* root, vector<int>& vec) {
     traverseLeaf(root->right, vec);
 }
 
-void traverseRgt(Node* root, vector<int>& vec) {  // Correct name here
-    if (root == NULL || (root->left == NULL && root->right == NULL)) return;  // Fix base condition
+void traverseRgt(Node* root, vector<int>& vec) {  
+    if (root == NULL || (root->left == NULL && root->right == NULL)) return;  
     
-    if (root->right != NULL) traverseRgt(root->right, vec);  // Correct function call here
+    if (root->right != NULL) traverseRgt(root->right, vec);  
     else traverseRgt(root->left, vec);
     
-    vec.push_back(root->data);  // Add after the recursive call to ensure reverse order
+    vec.push_back(root->data);  
 }
 
 vector<int> boundary(Node *root) {
