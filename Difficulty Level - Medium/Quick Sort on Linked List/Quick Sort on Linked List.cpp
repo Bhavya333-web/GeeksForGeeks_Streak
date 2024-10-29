@@ -13,8 +13,6 @@ struct Node {
         next = NULL;
     }
 };
-
-/* A utility function to insert a node at the beginning of linked list */
 void push(struct Node*& head_ref, int new_data) {
     /* allocate node */
     struct Node* new_node = new Node(new_data);
