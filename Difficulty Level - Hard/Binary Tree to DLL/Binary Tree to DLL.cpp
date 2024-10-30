@@ -1,8 +1,5 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
-
-// Tree Node
 struct Node {
     int data;
     Node* left;
