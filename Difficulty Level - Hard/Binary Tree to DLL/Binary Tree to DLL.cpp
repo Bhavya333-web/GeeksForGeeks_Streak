@@ -34,8 +34,6 @@ Node* buildTree(string str) {
         Node* currNode = queue.front();
         queue.pop();
         string currVal = ip[i];
-
-        // If the left child is not null
         if (currVal != "N") {
             currNode->left = newNode(stoi(currVal));
             queue.push(currNode->left);
