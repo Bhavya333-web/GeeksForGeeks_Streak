@@ -10,14 +10,11 @@ class Solution {
         return ans/2;
     }
 };
-
-//{ Driver Code Starts.
 int main() {
     string ts;
     getline(cin, ts);
     int t = stoi(ts);
     while (t--) {
-
         vector<int> arr;
         string input;
         getline(cin, input);
@@ -36,5 +33,3 @@ int main() {
     }
     return 0;
 }
-
-// } Driver Code Ends
