@@ -22,8 +22,6 @@ Node* newNode(int val) {
 Node* buildTree(string str) {
     if (str.length() == 0 || str[0] == 'N')
         return NULL;
-
-    // Creating vector of strings from input string after splitting by space
     vector<string> ip;
     istringstream iss(str);
     for (string str; iss >> str;)
