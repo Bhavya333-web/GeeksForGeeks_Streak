@@ -50,8 +50,6 @@ Node* buildTree(string str) {
     }
     return root;
 }
-
-/* Function to print nodes in a given doubly linked list */
 void printList(Node* node) {
     Node* prev = NULL;
     while (node != NULL) {
@@ -74,25 +72,6 @@ void inorder(Node* root) {
         inorder(root->right);
     }
 }
-
-
-// } Driver Code Ends
-/* Structure for tree and linked list
-
-struct Node
-{
-    int data;
-    struct Node* left;
-    struct Node* right;
-
-    Node(int x){
-        data = x;
-        left = right = NULL;
-    }
-};
- */
-
-// This function should return head to the DLL
 class Solution {
   public:
     void Inorder(Node* root,vector<int>&inord){
@@ -102,7 +81,6 @@ class Solution {
         Inorder(root->right,inord);
     }
     Node* bToDLL(Node* root) {
-        // code here
         vector<int>inord;
         Inorder(root,inord);
         Node *temp=new Node(-1);
