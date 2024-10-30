@@ -29,8 +29,6 @@ Node* buildTree(string str) {
     Node* root = newNode(stoi(ip[0]));
     queue<Node*> queue;
     queue.push(root);
-
-    // Starting from the second element
     int i = 1;
     while (!queue.empty() && i < ip.size()) {
         Node* currNode = queue.front();
