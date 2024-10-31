@@ -16,14 +16,9 @@ Node* newNode(int val) {
 Node* buildTree(string str) {
     if (str.length() == 0 || str[0] == 'N') return NULL;
     vector<string> ip;
-
     istringstream iss(str);
     for (string str; iss >> str;) ip.push_back(str);
-
-    // Create the root of the tree
     Node* root = newNode(stoi(ip[0]));
-
-    // Push the root to the queue
     queue<Node*> queue;
     queue.push(root);
 
