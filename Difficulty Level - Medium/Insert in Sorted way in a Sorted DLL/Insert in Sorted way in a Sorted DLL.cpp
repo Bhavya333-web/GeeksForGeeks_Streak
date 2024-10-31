@@ -1,18 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 struct Node {
     int data;
     struct Node *prev, *next;
 };
-
 struct Node* getNode(int data) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     newNode->data = data;
     newNode->prev = newNode->next = NULL;
     return newNode;
 }
-
 void printList(struct Node* head) {
     while (head != NULL) {
         cout << head->data << " ";
