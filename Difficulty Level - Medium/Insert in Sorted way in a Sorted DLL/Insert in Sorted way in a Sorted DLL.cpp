@@ -30,7 +30,6 @@ class Solution {
             if(curr != NULL){
                 curr->prev = newNode;
             }
-            
             return newNode;
         }
         while(curr->next != NULL && curr->next->data < x){
@@ -57,7 +56,6 @@ int main() {
         stringstream ss(input);
         Node *head = nullptr, *tail = nullptr;
         int x;
-
         if (ss >> x) {
             head = getNode(x);
             tail = head;
@@ -67,7 +65,6 @@ int main() {
             tail->next->prev = tail;
             tail = tail->next;
         }
-
         int valueToInsert;
         cin >> valueToInsert;
         cin.ignore(); 
