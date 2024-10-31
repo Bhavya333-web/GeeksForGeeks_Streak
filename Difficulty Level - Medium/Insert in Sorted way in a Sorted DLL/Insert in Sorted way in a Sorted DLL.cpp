@@ -21,7 +21,6 @@ class Solution {
   public:
     Node* sortedInsert(Node* head, int x) {
         Node* curr = head;
-        
         if(curr->data > x || curr == NULL){
             Node* newNode = new Node;
             newNode->data = x;
