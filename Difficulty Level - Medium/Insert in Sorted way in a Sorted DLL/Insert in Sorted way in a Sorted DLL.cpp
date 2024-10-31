@@ -43,7 +43,6 @@ class Solution {
         newNode->data = x;
         newNode->next = curr->next;
         newNode->prev = curr;
-        
         if(curr->next != NULL){
             curr->next->prev = newNode;
         }
@@ -53,10 +52,6 @@ class Solution {
         return head;
     }
 };
-
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     cin >> t;
