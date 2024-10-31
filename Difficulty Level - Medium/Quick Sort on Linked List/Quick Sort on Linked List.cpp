@@ -25,7 +25,6 @@ void printList(struct Node* node) {
     }
     printf("\n");
 }
-
 class Solution {
   public:
     struct Node* partition(struct Node* head, struct Node* last){
