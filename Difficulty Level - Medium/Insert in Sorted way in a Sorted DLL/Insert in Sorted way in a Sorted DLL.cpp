@@ -33,7 +33,6 @@ class Solution {
             
             return newNode;
         }
-        
         while(curr->next != NULL && curr->next->data < x){
         curr = curr->next;
         }
