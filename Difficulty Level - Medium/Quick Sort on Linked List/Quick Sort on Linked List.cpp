@@ -25,17 +25,7 @@ void printList(struct Node* node) {
     }
     printf("\n");
 }
-/* a node of the singly linked list
-struct node
-{
-    int data;
-    struct node *next;
 
-    node(int x){
-        data = x;
-        next = NULL;
-    }
-}; */
 class Solution {
   public:
     struct Node* partition(struct Node* head, struct Node* last){
