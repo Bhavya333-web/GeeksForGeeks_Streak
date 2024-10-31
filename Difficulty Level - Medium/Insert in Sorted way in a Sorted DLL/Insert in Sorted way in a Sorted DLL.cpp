@@ -67,7 +67,6 @@ int main() {
             head = getNode(x);
             tail = head;
         }
-
         while (ss >> x) {
             tail->next = getNode(x);
             tail->next->prev = tail;
@@ -76,8 +75,7 @@ int main() {
 
         int valueToInsert;
         cin >> valueToInsert;
-        cin.ignore(); // Ignore the newline character after the value
-
+        cin.ignore(); 
         Solution obj;
         head = obj.sortedInsert(head, valueToInsert);
         printList(head);
@@ -85,5 +83,3 @@ int main() {
 
     return 0;
 }
-
-// } Driver Code Ends
