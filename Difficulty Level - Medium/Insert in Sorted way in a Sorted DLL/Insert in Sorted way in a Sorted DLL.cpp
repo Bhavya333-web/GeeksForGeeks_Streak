@@ -36,7 +36,6 @@ class Solution {
         while(curr->next != NULL && curr->next->data < x){
         curr = curr->next;
         }
-        
         Node* newNode = new Node;
         newNode->data = x;
         newNode->next = curr->next;
@@ -44,9 +43,7 @@ class Solution {
         if(curr->next != NULL){
             curr->next->prev = newNode;
         }
-        
         curr->next = newNode;
-        
         return head;
     }
 };
