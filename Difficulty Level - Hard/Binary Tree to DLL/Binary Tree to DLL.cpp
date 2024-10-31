@@ -64,7 +64,6 @@ void printList(Node* node) {
     }
     cout << endl;
 }
-
 void inorder(Node* root) {
     if (root != NULL) {
         inorder(root->left);
@@ -97,10 +96,6 @@ class Solution {
         return fans;
     }
 };
-
-//{ Driver Code Starts.
-
-/* Driver program to test size function */
 int main() {
     int t;
     cin >> t;
@@ -120,5 +115,3 @@ int main() {
     }
     return 0;
 }
-
-// } Driver Code Ends
