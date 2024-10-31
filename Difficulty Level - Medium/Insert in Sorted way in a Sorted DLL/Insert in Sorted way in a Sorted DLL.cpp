@@ -80,6 +80,5 @@ int main() {
         head = obj.sortedInsert(head, valueToInsert);
         printList(head);
     }
-
     return 0;
 }
