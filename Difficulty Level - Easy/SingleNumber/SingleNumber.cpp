@@ -15,7 +15,6 @@ int main() {
     getline(cin, ts);
     int t = stoi(ts);
     while (t--) {
-
         vector<int> arr;
         string input;
         getline(cin, input);
