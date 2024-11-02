@@ -25,8 +25,6 @@ Node* buildTree(string str) {
         Node* currNode = queue.front();
         queue.pop();
         string currVal = ip[i];
-
-        // If the left child is not null
         if (currVal != "N") {
 
             // Create the left child for the current node
