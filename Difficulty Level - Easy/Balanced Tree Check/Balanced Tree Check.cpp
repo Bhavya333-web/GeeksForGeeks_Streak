@@ -27,8 +27,6 @@ Node* buildTree(string str) {
         string currVal = ip[i];
         if (currVal != "N") {
             currNode->left = newNode(stoi(currVal));
-
-            // Push it to the queue
             queue.push(currNode->left);
         }
 
