@@ -18,9 +18,6 @@ bool checkDuplicatesWithinK(vector<int>& arr, int k) {
         return false;
     }
 };
-
-//{ Driver Code Starts.
-
 int main() {
     string ts;
     getline(cin, ts);
