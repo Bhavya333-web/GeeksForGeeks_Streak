@@ -40,7 +40,6 @@ int main() {
             cout << "true" << endl;
         else
             cout << "false" << endl;
-        // cout << res << endl;
         cout << "~" << endl;
     }
     return 0;
