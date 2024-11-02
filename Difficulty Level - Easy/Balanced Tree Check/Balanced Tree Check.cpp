@@ -29,8 +29,6 @@ Node* buildTree(string str) {
             currNode->left = newNode(stoi(currVal));
             queue.push(currNode->left);
         }
-
-        // For the right child
         i++;
         if (i >= ip.size()) break;
         currVal = ip[i];
