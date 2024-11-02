@@ -10,7 +10,6 @@ Node* newNode(int val) {
     temp->data = val;
     temp->left = NULL;
     temp->right = NULL;
-
     return temp;
 }
 Node* buildTree(string str) {
