@@ -37,7 +37,6 @@ void printList(struct Node *head) {
     }
     printf("\n");
 }
-
 int main() {
     int t;
     cin >> t;
@@ -51,12 +50,10 @@ int main() {
         while (ss >> number) {
             arr.push_back(number);
         }
-
         if (arr.empty()) {
             cout << "empty" << endl;
             continue;
         }
-
         struct Node *head = new Node(arr[0]);
         struct Node *tail = head;
         for (int i = 1; i < arr.size(); ++i) {
