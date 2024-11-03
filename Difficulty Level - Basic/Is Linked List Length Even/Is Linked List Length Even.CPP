@@ -65,8 +65,6 @@ int main() {
             cout << "true" << endl;
         else
             cout << "false" << endl;
-
-        // Clean up the remaining nodes to avoid memory leaks
         while (head != NULL) {
             struct Node *temp = head;
             head = head->next;
@@ -75,5 +73,3 @@ int main() {
     }
     return 0;
 }
-
-// } Driver Code Ends
