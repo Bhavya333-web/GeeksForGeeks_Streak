@@ -1,4 +1,3 @@
-//{ Driver Code Starts
 #include <algorithm>
 #include <bits/stdc++.h>
 #include <cmath>
