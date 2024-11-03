@@ -21,14 +21,12 @@ struct Node {
 class Solution {
  public:
     bool isLengthEven(struct Node **head) {
-        // Code here
         int count = 0 ;
         while(*head){
             count++;
             (*head) = (*head)->next;
         }
         return !(count&1);
-        // return count%2==0;
     }
 };
 
