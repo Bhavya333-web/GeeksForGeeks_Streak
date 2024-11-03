@@ -29,10 +29,6 @@ class Solution {
         return !(count&1);
     }
 };
-
-//{ Driver Code Starts.
-
-/* Function to print nodes in a given linked list */
 void printList(struct Node *head) {
     struct Node *temp = head;
     while (temp != NULL) {
