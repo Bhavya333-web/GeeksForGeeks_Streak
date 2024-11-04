@@ -8,7 +8,6 @@ class Solution {
         for(int i=0;i<n;i++){
             mp[arr[i]].push_back(i);
         }
-        
         vector<vector<int>>ans;
         for(int i=0;i<n-2;i++){
             int first=arr[i],firstInd=i;
