@@ -3,7 +3,6 @@ using namespace std;
 class Solution {
   public:
     vector<vector<int>> findTriplets(vector<int> &arr) {
-        // Code here
         int n=arr.size();
         unordered_map<int,vector<int>>mp;
         for(int i=0;i<n;i++){
