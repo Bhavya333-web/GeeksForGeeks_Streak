@@ -38,7 +38,6 @@ int main() {
             arr.push_back(number);
         }
         Solution ob;
-
         vector<vector<int>> res = ob.findTriplets(arr);
         sort(res.begin(), res.end());
         if (res.size() == 0) {
@@ -54,4 +53,3 @@ int main() {
     }
     return 0;
 }
-// } Driver Code Ends
