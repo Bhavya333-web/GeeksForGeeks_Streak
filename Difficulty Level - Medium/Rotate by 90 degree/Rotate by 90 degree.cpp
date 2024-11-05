@@ -1,12 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
-// } Driver Code Ends
-// User function template for C++
-
-/* matrix : given input matrix, you are require
- to change it in place without using extra space */
 void rotate(vector<vector<int> >& mat) {
     int n =mat.size();
     // Your code goes here
