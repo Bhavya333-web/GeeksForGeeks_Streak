@@ -9,8 +9,7 @@ void rotate(vector<vector<int> >& mat) {
     } 
     for(int i=0;i<n;i++){
         reverse(mat[i].begin(),mat[i].end());
-    }
-    
+    } 
 }
 int main() {
     int t;
@@ -30,7 +29,6 @@ int main() {
                 cout << matrix[i][j] << " ";
             cout << "\n";
         }
-
         cout << "~"
              << "\n";
     }
