@@ -12,10 +12,6 @@ void rotate(vector<vector<int> >& mat) {
     }
     
 }
-
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     cin >> t;
