@@ -2,8 +2,6 @@
 using namespace std;
 void rotate(vector<vector<int> >& mat) {
     int n =mat.size();
-    // Your code goes here
-    // this will help to swap the lower part with uper part 
     for(int i =0;i<n;i++){
         for(int j =0;j<i;j++){
             swap(mat[i][j],mat[j][i]);
