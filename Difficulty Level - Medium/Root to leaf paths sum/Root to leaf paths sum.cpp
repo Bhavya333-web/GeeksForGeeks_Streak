@@ -35,31 +35,14 @@ Node* buildTree(string str) {
         if (i >= ip.size())
             break;
         currVal = ip[i];
-
-        // If the right child is not null
         if (currVal != "N") {
-
-            // Create the right child for the current node
             currNode->right = newNode(stoi(currVal));
-
-            // Push it to the queue
             queue.push(currNode->right);
         }
         i++;
     }
-
     return root;
 }
-
-
-// } Driver Code Ends
-/* Tree node structure  used in the program
- struct Node
- {
-     int data;
-     Node* left, *right;
-}; */
-
 class Solution {
   public:
      
