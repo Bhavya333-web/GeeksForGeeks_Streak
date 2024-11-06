@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 struct Node {
     int data;
     struct Node* left;
     struct Node* right;
 };
-
 Node* newNode(int val) {
     Node* temp = new Node;
     temp->data = val;
@@ -15,7 +13,6 @@ Node* newNode(int val) {
 
     return temp;
 }
-
 Node* buildTree(string str) {
     // Corner Case
     if (str.length() == 0 || str[0] == 'N')
