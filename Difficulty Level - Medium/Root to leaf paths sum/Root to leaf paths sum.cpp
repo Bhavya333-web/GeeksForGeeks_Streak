@@ -20,12 +20,8 @@ Node* buildTree(string str) {
     for (string str; iss >> str;)
         ip.push_back(str);
     Node* root = newNode(stoi(ip[0]));
-
-    // Push the root to the queue
     queue<Node*> queue;
     queue.push(root);
-
-    // Starting from the second element
     int i = 1;
     while (!queue.empty() && i < ip.size()) {
 
