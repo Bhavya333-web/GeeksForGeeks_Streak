@@ -45,41 +45,27 @@ Node* buildTree(string str) {
 }
 class Solution {
   public:
-     
     void solve(Node* root,vector<int> &ans,int temp){
         if(root==NULL){
          return;   
         }
-        
          temp = (10*temp) + root->data;
-        
         if(root->left == NULL && root->right == NULL){
             ans.push_back(temp);
         }
-        
         solve(root->left,ans,temp);
-        solve(root->right,ans,temp);
-        
+        solve(root->right,ans,temp); 
     }
-  
     int treePathsSum(Node *root) {
        vector<int> ans;
        int count = 0,temp = 0;
        solve(root,ans,temp);
-       
-       
        for(auto i:ans){
            count +=i;
        }
-       
        return count;
     }
 };
-
-
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     scanf("%d ", &t);
