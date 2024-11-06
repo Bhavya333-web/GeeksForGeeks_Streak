@@ -26,8 +26,6 @@ Node* buildTree(string str) {
     while (!queue.empty() && i < ip.size()) {
         Node* currNode = queue.front();
         queue.pop();
-
-        // Get the current node's value from the string
         string currVal = ip[i];
 
         // If the left child is not null
