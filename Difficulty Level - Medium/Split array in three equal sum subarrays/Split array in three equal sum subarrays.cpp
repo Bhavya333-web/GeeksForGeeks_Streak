@@ -36,9 +36,6 @@ class Solution {
     return {-1, -1};
 }
 };
-
-//{ Driver Code Starts.
-
 int main() {
     int test_cases;
     cin >> test_cases;
