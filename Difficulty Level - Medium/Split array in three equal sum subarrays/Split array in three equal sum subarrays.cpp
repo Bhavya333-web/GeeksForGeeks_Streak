@@ -58,10 +58,8 @@ int main() {
             for (int i = 0; i < arr.size(); i++) {
                 if (i <= result[0])
                     sum1 += arr[i];
-
                 else if (i <= result[1])
                     sum2 += arr[i];
-
                 else
                     sum3 += arr[i];
             }
