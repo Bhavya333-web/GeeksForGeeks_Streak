@@ -43,8 +43,6 @@ int main() {
     while (test_cases--) {
         string input;
         vector<int> arr;
-
-        // Read the array from input line
         getline(cin, input);
         stringstream ss(input);
         int number;
