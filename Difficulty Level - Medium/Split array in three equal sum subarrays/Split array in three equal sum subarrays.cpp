@@ -51,8 +51,6 @@ int main() {
         }
         Solution ob;
         vector<int> result = ob.findSplit(arr);
-
-        // Output result
         if (result[0] == -1 && result[1] == -1 || result.size() != 2) {
             cout << "false" << endl;
         } else {
