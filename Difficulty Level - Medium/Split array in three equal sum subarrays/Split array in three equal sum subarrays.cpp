@@ -1,10 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
-// } Driver Code Ends
-// User function Template for C++
-//  Class Solution to contain the method for solving the problem.
 class Solution {
   public:
     // Function to determine if array arr can be split into three equal sum sets.
