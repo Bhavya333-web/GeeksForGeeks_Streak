@@ -2,7 +2,6 @@
 using namespace std;
 class Solution {
   public:
-    // Function to determine if array arr can be split into three equal sum sets.
     vector<int> findSplit(vector<int> &arr)
 {
     int sum = accumulate(arr.begin(), arr.end(), 0);
