@@ -9,7 +9,6 @@ class Solution {
             A+=rep;
             cnt++;
         }
-       
         if(A.find(B)!=-1) return cnt;
          A+=rep;
          cnt++;
@@ -17,9 +16,6 @@ class Solution {
         return -1;
     }
 };
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     scanf("%d ", &t);
