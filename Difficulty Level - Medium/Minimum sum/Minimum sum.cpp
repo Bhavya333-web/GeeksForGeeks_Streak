@@ -33,7 +33,6 @@ int main() {
         while (ss >> number) {
             a.push_back(number);
         }
-
         Solution ob;
         string ans = ob.minSum(a);
         cout << ans << endl;
@@ -41,5 +40,3 @@ int main() {
     }
     return 0;
 }
-
-// } Driver Code Ends
