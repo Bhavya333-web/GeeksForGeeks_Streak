@@ -20,10 +20,6 @@ class Solution {
         return string( v.rbegin(), v.rend() );
     }
 };
-
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     cin >> t;
