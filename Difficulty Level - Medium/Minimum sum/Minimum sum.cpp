@@ -3,7 +3,6 @@ using namespace std;
 class Solution {
   public:
     string minSum(vector<int> &arr) {
-        // code here
         sort( arr.begin(), arr.end(), greater<int>() );
         int n = arr.size(), sum=0;
         vector<char> v;
