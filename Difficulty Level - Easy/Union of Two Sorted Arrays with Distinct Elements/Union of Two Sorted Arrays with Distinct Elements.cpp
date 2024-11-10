@@ -44,8 +44,6 @@ int main() {
         while (ss >> number) {
             a.push_back(number);
         }
-
-        // Read second array
         getline(cin, input);
         stringstream ss2(input);
         while (ss2 >> number) {
