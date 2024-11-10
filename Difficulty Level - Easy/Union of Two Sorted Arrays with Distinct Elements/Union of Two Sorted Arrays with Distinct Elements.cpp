@@ -49,7 +49,6 @@ int main() {
         while (ss2 >> number) {
             b.push_back(number);
         }
-
         Solution ob;
         vector<int> ans = ob.findUnion(a, b);
         for (int i : ans)
