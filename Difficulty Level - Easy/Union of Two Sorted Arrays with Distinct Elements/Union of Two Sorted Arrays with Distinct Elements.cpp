@@ -38,8 +38,6 @@ int main() {
     while (t--) {
         vector<int> a, b;
         string input;
-
-        // Read first array
         getline(cin, input);
         stringstream ss(input);
         int number;
