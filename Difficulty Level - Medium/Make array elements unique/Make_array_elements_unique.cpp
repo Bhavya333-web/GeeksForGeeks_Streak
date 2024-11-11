@@ -28,8 +28,7 @@ int main() {
         int num;
         while (iss >> num) {
             arr.push_back(num);
-        }
-        
+        }        
         Solution obj;
         int result = obj.minIncrements(arr);
         cout << result << endl;
