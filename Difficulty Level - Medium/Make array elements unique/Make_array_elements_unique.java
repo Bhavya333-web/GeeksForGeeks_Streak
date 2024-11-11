@@ -19,11 +19,6 @@ class GFG {
         }
     }
 }
-// } Driver Code Ends
-
-
-// User function Template for Java
-
 class Solution {
     public int minIncrements(int[] arr) {
         // Code here
