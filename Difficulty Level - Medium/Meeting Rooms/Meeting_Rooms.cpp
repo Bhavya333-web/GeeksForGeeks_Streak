@@ -5,7 +5,6 @@ using namespace std;
 class Solution {
 public:
     bool canAttend(vector<vector<int>>& arr) {
-        // Sort intervals by start time
         sort(arr.begin(), arr.end());
 
         // Check for overlapping intervals
