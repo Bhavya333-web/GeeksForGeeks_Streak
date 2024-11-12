@@ -13,7 +13,6 @@ public:
         }
         return true;     }
 };
-
 int main() {
     int T;
     cin >> T;
