@@ -26,13 +26,11 @@ Node* inputList(int size, vector<int> v) {
     int val = v[0];
     Node* head = new Node(val);
     Node* tail = head;
-
     for (int i = 0; i < size - 1; i++) {
         val = v[i + 1];
         tail->next = new Node(val);
         tail = tail->next;
     }
-
     return head;
 }
 
