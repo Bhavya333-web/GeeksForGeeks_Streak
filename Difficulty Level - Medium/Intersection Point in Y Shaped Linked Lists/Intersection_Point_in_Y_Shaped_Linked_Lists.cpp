@@ -88,7 +88,6 @@ int main() {
             temp = temp->next;
         if (temp != NULL)
             temp->next = common;
-
         temp = head2;
         while (temp != NULL && temp->next != NULL)
             temp = temp->next;
@@ -100,5 +99,3 @@ int main() {
     }
     return 0;
 }
-
-// } Driver Code Ends
