@@ -4,13 +4,11 @@ using namespace std;
 struct Node {
     int data;
     struct Node* next;
-
     Node(int x) {
         data = x;
         next = NULL;
     }
 };
-
 vector<int> take() {
     vector<int> arr;
     string input;
@@ -22,7 +20,6 @@ vector<int> take() {
     }
     return arr;
 }
-
 Node* inputList(int size, vector<int> v) {
     if (size == 0)
         return NULL;
