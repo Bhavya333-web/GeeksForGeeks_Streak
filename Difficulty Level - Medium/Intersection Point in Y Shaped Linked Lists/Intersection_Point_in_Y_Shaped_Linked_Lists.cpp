@@ -23,9 +23,7 @@ vector<int> take() {
 Node* inputList(int size, vector<int> v) {
     if (size == 0)
         return NULL;
-
     int val = v[0];
-
     Node* head = new Node(val);
     Node* tail = head;
 
