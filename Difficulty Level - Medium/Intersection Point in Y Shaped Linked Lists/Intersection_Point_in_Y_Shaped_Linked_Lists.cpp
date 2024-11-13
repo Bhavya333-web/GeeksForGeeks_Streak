@@ -33,11 +33,6 @@ Node* inputList(int size, vector<int> v) {
     }
     return head;
 }
-
-
-// } Driver Code Ends
-
-
 class Solution {
   public:
     // Function to find intersection point in Y shaped Linked Lists.
