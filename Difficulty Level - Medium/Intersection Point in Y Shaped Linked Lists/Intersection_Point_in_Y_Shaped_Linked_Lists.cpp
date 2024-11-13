@@ -70,11 +70,9 @@ class Solution {
 int main() {
     srand(time(0));
     int T, n1, n2, n3;
-
     cin >> T;
     cin.ignore();
     while (T--) {
-
         vector<int> v1 = take();
         vector<int> v2 = take();
         vector<int> v3 = take();
