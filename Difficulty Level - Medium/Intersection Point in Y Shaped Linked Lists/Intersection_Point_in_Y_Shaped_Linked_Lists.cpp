@@ -53,7 +53,6 @@ class Solution {
                 root1=root1->next;
                 len_diff--;
             }
-            
         }
         else if(len2>len1){
             while(len_diff)
@@ -68,13 +67,6 @@ class Solution {
         return -1;
     }
 };
-
-
-
-
-//{ Driver Code Starts.
-
-/* Driver program to test above function*/
 int main() {
     srand(time(0));
     int T, n1, n2, n3;
