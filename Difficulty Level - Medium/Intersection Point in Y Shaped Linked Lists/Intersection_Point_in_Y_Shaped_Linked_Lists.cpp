@@ -77,15 +77,12 @@ int main() {
         vector<int> v2 = take();
         vector<int> v3 = take();
         int n1 = v1.size(), n2 = v2.size(), n3 = v3.size();
-
         Node* head1 = NULL;
         Node* head2 = NULL;
         Node* common = NULL;
-
         head1 = inputList(n1, v1);
         head2 = inputList(n2, v2);
         common = inputList(n3, v3);
-
         Node* temp = head1;
         while (temp != NULL && temp->next != NULL)
             temp = temp->next;
