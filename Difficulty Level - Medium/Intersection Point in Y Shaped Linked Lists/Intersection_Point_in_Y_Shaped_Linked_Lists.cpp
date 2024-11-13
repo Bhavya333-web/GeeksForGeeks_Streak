@@ -35,7 +35,6 @@ Node* inputList(int size, vector<int> v) {
 }
 class Solution {
   public:
-    // Function to find intersection point in Y shaped Linked Lists.
     int intersectPoint(Node* head1, Node* head2) {
         int len1=0;
         int len2=0;
