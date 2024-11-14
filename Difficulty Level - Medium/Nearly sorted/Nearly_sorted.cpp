@@ -14,8 +14,6 @@ class Solution {
             pq.pop();
             pq.push(arr[i]);
         }
-        
-        // store the pop element in arr and return 
         while(!pq.empty())
         {
             arr[idx++] = pq.top();
