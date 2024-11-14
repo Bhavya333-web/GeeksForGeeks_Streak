@@ -20,11 +20,7 @@ class Solution {
             pq.pop();
         }
     }
-
 };
-
-//{ Driver Code Starts.
-
 int main() {
     string ts;
     getline(cin, ts);
