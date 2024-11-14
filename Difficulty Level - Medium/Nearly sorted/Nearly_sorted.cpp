@@ -7,9 +7,6 @@ class Solution {
         priority_queue<int,vector<int>,greater<int>> pq;
         for(int i=0;i<=k;++i)
             pq.push(arr[i]);
-        
-        
-        // start from k + 1. pop an again push
         int idx = 0;
         for(int i = k+1;i<n;++i)
         {
