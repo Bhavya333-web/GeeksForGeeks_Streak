@@ -16,9 +16,6 @@ class Solution {
         return secondLargest;
     }
 };
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     cin >> t;
