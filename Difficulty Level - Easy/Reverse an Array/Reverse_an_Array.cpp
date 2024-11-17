@@ -21,8 +21,7 @@ public:
 int main() {
     int tc;
     cin >> tc;
-    cin.ignore(); // To ignore newline after reading `tc`
-
+    cin.ignore(); 
     while (tc-- > 0) {
         string line;
         getline(cin, line); // Read the entire line of numbers
