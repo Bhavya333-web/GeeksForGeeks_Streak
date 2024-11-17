@@ -9,7 +9,6 @@ public:
         arr[i] = arr[j];
         arr[j] = val;
     }
-
     void reverseArray(vector<int>& arr) {
         int i = 0, j = arr.size() - 1;
         while (i <= j) {
