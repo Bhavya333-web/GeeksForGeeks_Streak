@@ -2,7 +2,6 @@
 #include <vector>
 #include <sstream>
 using namespace std;
-
 class Solution {
 public:
     void swap(vector<int>& arr, int i, int j) {
