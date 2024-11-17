@@ -26,13 +26,11 @@ int main() {
         string line;
         getline(cin, line); 
         stringstream ss(line);
-
         vector<int> arr;
         int num;
         while (ss >> num) {
             arr.push_back(num);
         }
-
         Solution obj;
         obj.reverseArray(arr);
 
