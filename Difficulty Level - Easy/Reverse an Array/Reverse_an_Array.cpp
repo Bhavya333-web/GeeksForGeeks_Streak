@@ -24,7 +24,7 @@ int main() {
     cin.ignore(); 
     while (tc-- > 0) {
         string line;
-        getline(cin, line); // Read the entire line of numbers
+        getline(cin, line); 
         stringstream ss(line);
 
         vector<int> arr;
