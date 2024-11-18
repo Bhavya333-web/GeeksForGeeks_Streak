@@ -31,8 +31,6 @@ int main() {
         int n = arr.size();
         Solution ob;
         ob.rotateArr(arr, d);
-
-        // printing the elements of the array
         for (int i = 0; i < n; i++) {
             cout << arr[i] << " ";
         }
