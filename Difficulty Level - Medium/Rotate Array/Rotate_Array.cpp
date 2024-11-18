@@ -30,7 +30,6 @@ int main() {
         d = crr[0];
         int n = arr.size();
         Solution ob;
-        // calling rotateArr() function
         ob.rotateArr(arr, d);
 
         // printing the elements of the array
