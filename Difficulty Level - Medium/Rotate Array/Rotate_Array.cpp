@@ -12,7 +12,6 @@ int main() {
     cin >> test_case;
     cin.ignore();
     while (test_case--) {
-
         int d;
         vector<int> arr, brr, crr;
         string input;
