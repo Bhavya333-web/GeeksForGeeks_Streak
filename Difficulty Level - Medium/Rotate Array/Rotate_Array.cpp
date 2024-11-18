@@ -7,9 +7,6 @@ class Solution {
         rotate( arr.begin(), arr.begin() + d, arr.end());
     }
 };
-
-//{ Driver Code Starts.
-
 int main() {
     int test_case;
     cin >> test_case;
