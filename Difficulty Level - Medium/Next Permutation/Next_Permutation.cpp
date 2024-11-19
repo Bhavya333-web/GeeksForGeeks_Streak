@@ -11,12 +11,10 @@ class Solution {
                 break;
             }
         }
-        
         if(ind==-1){
             reverse(arr.begin(), arr.end());
             return;
         }
-        
         for(int i=n-1; i>=ind; i--){
             if(arr[i]>arr[ind]){
                 swap(arr[i], arr[ind]);
