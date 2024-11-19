@@ -21,13 +21,10 @@ class Solution {
                 break;
             }
         }
-        
         reverse(arr.begin()+ind+1, arr.end());
         return;
     }
 };
-
-//{ Driver Code Starts.
 int main() {
     int t;
     cin >> t;
