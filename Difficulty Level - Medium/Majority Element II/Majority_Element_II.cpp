@@ -31,7 +31,6 @@ int main() {
     cin >> t;
     cin.ignore();
     while (t--) {
-
         string s;
         getline(cin, s);
         stringstream ss(s);
@@ -52,4 +51,3 @@ int main() {
     }
     return 0;
 }
-// } Driver Code Ends
