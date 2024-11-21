@@ -22,7 +22,6 @@ class Solution {
 };
 int main() {
     int t;
-
     cin >> t;
     cin.ignore();
     while (t--) {
@@ -38,7 +37,6 @@ int main() {
         Solution ob;
         int res = ob.maximumProfit(arr);
         cout << res;
-
         cout << "\n";
     }
     return 0;
