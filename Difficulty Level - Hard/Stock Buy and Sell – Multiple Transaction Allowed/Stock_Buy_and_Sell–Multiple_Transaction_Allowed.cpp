@@ -20,10 +20,6 @@ class Solution {
             return answer;
     }
 };
-
-
-
-//{ Driver Code Starts.
 int main() {
     int t;
 
