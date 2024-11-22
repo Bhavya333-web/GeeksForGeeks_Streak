@@ -12,10 +12,6 @@ class Solution {
         return maxProfit;
     }
 };
-
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     cin >> t;
