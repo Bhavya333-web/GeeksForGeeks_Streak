@@ -7,7 +7,7 @@ class Solution {
         int mbp = prices[0]; 
         for(int i =1;i<prices.size();i++){
             mbp = min(mbp , prices[i]); 
-            maxProfit = max(maxProfit,prices[i] - mbp); // to calculate maximum Profit
+            maxProfit = max(maxProfit,prices[i] - mbp); 
         }
         return maxProfit;
     }
