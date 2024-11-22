@@ -25,7 +25,6 @@ int main() {
         while (ss >> number) {
             prices.push_back(number);
         }
-
         Solution ob;
         int ans = ob.maximumProfit(prices);
         cout << ans << endl;
