@@ -33,7 +33,6 @@ int main() {
         Solution ob;
         int res = ob.getMinDiff(k, arr);
         cout << res;
-
         cout << "\n";
         cout << "~"
              << "\n";
