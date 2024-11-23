@@ -3,7 +3,6 @@ using namespace std;
 class Solution {
   public:
     int getMinDiff(int k, vector<int> &arr) {
-        // code here
         int n = arr.size() ; 
         sort(arr.begin() , arr.end()) ; 
         int ans = arr[n-1] - arr[0] ; 
