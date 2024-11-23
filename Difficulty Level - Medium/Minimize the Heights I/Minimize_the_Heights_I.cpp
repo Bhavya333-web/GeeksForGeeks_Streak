@@ -15,10 +15,8 @@ class Solution {
 };
 int main() {
     int t;
-
     cin >> t;
     cin.ignore();
-
     while (t--) {
         int k;
         cin >> k;
