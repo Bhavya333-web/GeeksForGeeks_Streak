@@ -8,8 +8,7 @@ class Solution {
         for(int i=1;i<arr.size();i++)
         {
             current=max(arr[i]+current,arr[i]);
-            result=max(current,result);
-            
+            result=max(current,result);   
         }
         return result;
     }
@@ -17,8 +16,8 @@ class Solution {
 int main() {
     int t;
     cin >> t;
-    cin.ignore(); // To discard any leftover newline characters
-    while (t--)   // while testcases exist
+    cin.ignore(); 
+    while (t--)   
     {
         vector<int> arr;
         string input;
