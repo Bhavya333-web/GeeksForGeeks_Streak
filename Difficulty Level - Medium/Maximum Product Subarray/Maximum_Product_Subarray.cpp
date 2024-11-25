@@ -7,7 +7,7 @@ class Solution {
     if (n == 0) return 0;
 
     int maxi = 1;         // Maximum product of subarray ending at the current position
-    int mini = 1;         // Minimum product of subarray ending at the current position
+    int mini = 1;         
     int mx = a[0];        // Initialize with the first element to handle edge cases like single-element arrays
 
     for (int i = 0; i < n; i++) {
