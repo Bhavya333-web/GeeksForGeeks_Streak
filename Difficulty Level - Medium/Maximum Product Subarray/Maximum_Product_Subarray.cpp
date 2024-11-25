@@ -8,8 +8,7 @@ class Solution {
 
     int maxi = 1;         // Maximum product of subarray ending at the current position
     int mini = 1;         
-    int mx = a[0];        // Initialize with the first element to handle edge cases like single-element arrays
-
+    int mx = a[0];        
     for (int i = 0; i < n; i++) {
         if (a[i] < 0) {
            
