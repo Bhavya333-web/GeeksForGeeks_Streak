@@ -14,8 +14,6 @@ class Solution {
            
             swap(maxi, mini);
         }
-
-        // Update maxi and mini with the current element
         maxi = max(a[i], maxi * a[i]);
         mini = min(a[i], mini * a[i]);
 
