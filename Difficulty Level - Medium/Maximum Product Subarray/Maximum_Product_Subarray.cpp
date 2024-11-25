@@ -4,8 +4,6 @@ class Solution {
   public:
     int maxProduct(vector<int>& a) {
     int n = a.size();
-
-    // Edge case: If the array is empty, return 0
     if (n == 0) return 0;
 
     int maxi = 1;         // Maximum product of subarray ending at the current position
