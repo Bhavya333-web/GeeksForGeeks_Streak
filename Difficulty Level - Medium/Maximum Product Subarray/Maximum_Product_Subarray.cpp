@@ -12,7 +12,7 @@ class Solution {
 
     for (int i = 0; i < n; i++) {
         if (a[i] < 0) {
-            // Swap maxi and mini for negative numbers
+           
             swap(maxi, mini);
         }
 
