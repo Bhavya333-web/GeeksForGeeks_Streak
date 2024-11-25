@@ -2,7 +2,6 @@
 using namespace std;
 class Solution {
   public:
-    // Function to find maximum product subarray
     int maxProduct(vector<int>& a) {
     int n = a.size();
 
