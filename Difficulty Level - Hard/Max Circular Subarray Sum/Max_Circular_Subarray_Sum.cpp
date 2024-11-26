@@ -25,8 +25,6 @@ int main() {
     while (t--) {
         vector<int> arr;
         string input;
-
-        // Read first array
         getline(cin, input);
         stringstream ss(input);
         int number;
