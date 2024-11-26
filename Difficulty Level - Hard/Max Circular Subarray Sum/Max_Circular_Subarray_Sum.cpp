@@ -18,8 +18,6 @@ class Solution {
         return max(total - minSum,maxSum);
     }
 };
-
-//{ Driver Code Starts.
 int main() {
     int t;
     cin >> t;
