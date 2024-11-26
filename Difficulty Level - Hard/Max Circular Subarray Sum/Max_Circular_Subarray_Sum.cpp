@@ -9,8 +9,6 @@ class Solution {
         int maxSum = arr[0]; 
         int total = 0;
         for(int i=0;i<arr.size();i++){
-            
-            // Kadane's Algorithm for Maximum Subarray Sum
             max_so_far = max(max_so_far + arr[i],arr[i]);
             maxSum = max(maxSum,max_so_far);
             
