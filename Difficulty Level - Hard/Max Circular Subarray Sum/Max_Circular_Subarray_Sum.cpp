@@ -13,7 +13,6 @@ class Solution {
             maxSum = max(maxSum,max_so_far);
             min_so_far = min(min_so_far + arr[i],arr[i]);
             minSum = min(minSum,min_so_far);
-            
             total += arr[i];
         }
         return max(total - minSum,maxSum);
