@@ -3,10 +3,10 @@ using namespace std;
 class Solution {
   public:
      int circularSubarraySum(vector<int> &arr) {
-        int max_so_far = 0 ; // Track the maximum Subarray Sum
-        int min_so_far = 0; // Track the minimum Subarray Sum
-        int minSum = arr[0] ; // Puri Array useme Jo Minimum sum Sub array
-        int maxSum = arr[0]; // Puri Array useme Jo Maximum sum Sub array;
+        int max_so_far = 0 ; 
+        int min_so_far = 0; 
+        int minSum = arr[0] ; 
+        int maxSum = arr[0]; 
         int total = 0;
         for(int i=0;i<arr.size();i++){
             
