@@ -11,8 +11,6 @@ class Solution {
         for(int i=0;i<arr.size();i++){
             max_so_far = max(max_so_far + arr[i],arr[i]);
             maxSum = max(maxSum,max_so_far);
-            
-            // Kadane's Algorithm for Minium Subarray Sum
             min_so_far = min(min_so_far + arr[i],arr[i]);
             minSum = min(minSum,min_so_far);
             
