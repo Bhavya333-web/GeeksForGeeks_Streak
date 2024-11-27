@@ -15,11 +15,6 @@ class Solution {
         return num;
     }
 };
-
-//{ Driver Code Starts.
-
-// int missingNumber(int arr[], int n);
-
 int main() {
 
     // taking testcases
