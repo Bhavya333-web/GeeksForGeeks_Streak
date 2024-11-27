@@ -2,7 +2,6 @@
 using namespace std;
 class Solution {
   public:
-    // Function to find the smallest positive number missing from the array.
       int missingNumber(vector<int> &arr) {
          sort(arr.begin(),arr.end());
         int num=1;
