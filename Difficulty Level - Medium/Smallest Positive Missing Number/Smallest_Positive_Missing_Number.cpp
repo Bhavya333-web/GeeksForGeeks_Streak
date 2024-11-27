@@ -16,8 +16,6 @@ class Solution {
     }
 };
 int main() {
-
-    // taking testcases
     int t;
     cin >> t;
     cin.ignore();
