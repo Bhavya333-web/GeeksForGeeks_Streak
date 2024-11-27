@@ -1,9 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
-// } Driver Code Ends
-
 class Solution {
   public:
     // Function to find the smallest positive number missing from the array.
