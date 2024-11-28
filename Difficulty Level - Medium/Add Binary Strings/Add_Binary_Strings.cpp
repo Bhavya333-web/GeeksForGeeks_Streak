@@ -37,12 +37,7 @@ int main() {
         Solution ob;
         cout << ob.addBinary(A, B);
         cout << "\n";
-
         cout << "~"
              << "\n";
     }
 }
-
-// Contributed By: Pranay Bansal
-
-// } Driver Code Ends
