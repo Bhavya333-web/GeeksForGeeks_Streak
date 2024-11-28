@@ -8,14 +8,11 @@ class Solution {
     int i = A.length() - 1;
     int j = B.length() - 1;
     string result = "";
- 
     while (i >= 0 || j >= 0 || carry == 1) {
         int sum = carry;
- 
         if (i >= 0) {
             sum += A[i--] - '0';
         }
-        
         if (j >= 0) {
             sum += B[j--] - '0';
         }
