@@ -25,14 +25,9 @@ class Solution {
         idx++;
     }
     result = result.substr(idx);
- 
     return result;
- 
 }
 };
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     cin >> t;
