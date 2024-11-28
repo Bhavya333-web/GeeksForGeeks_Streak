@@ -16,14 +16,10 @@ class Solution {
         if (j >= 0) {
             sum += B[j--] - '0';
         }
- 
         result += to_string(sum % 2);
         carry = sum / 2;
     }
- 
     reverse(result.begin(), result.end());
- 
-    // Remove trailing zeros
     int idx = 0;
     while (idx < result.size() - 1 && result[idx] == '0') {
         idx++;
