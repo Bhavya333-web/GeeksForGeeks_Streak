@@ -37,11 +37,7 @@ class Solution {
         string f="-"+st;
         return stoi(f);
     }
-
-
 };
-
-//{ Driver Code Starts.
 int main() {
     int t;
     cin >> t;
