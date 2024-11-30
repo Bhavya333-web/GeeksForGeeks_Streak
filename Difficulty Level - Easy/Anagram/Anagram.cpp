@@ -15,14 +15,10 @@ class Solution {
     }
 };
 int main() {
-
     int t;
-
     cin >> t;
-
     while (t--) {
         string c, d;
-
         cin >> c >> d;
         Solution obj;
         if (obj.areAnagrams(c, d))
