@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
-// } Driver Code Ends
 class Solution {
   public:
     // Function is to check whether two strings are anagram of each other or not.
