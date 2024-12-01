@@ -30,14 +30,11 @@ int main() {
         cin >> S;
         Solution obj;
         char ans = obj.nonRepeatingChar(S);
-
         if (ans != '$')
             cout << ans;
         else
             cout << "-1";
-
         cout << endl;
-
         cout << "~"
              << "\n";
     }
