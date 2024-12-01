@@ -2,7 +2,6 @@
 using namespace std;
 class Solution {
   public:
-    
     char nonRepeatingChar(string &s) {
             int has = 0, rep = 0;
             for(const char & ch : s) {
@@ -23,9 +22,6 @@ class Solution {
             return '$';
         }
 };
-
-//{ Driver Code Starts.
-
 int main() {
 
     int T;
