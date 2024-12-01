@@ -2,7 +2,7 @@
 using namespace std;
 class Solution {
   public:
-    // Function to find the first non-repeating character in a string.
+    
     char nonRepeatingChar(string &s) {
             int has = 0, rep = 0;
             for(const char & ch : s) {
