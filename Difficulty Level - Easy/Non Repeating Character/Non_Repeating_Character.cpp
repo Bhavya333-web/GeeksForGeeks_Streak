@@ -23,12 +23,9 @@ class Solution {
         }
 };
 int main() {
-
     int T;
     cin >> T;
-
     while (T--) {
-
         string S;
         cin >> S;
         Solution obj;
