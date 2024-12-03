@@ -32,9 +32,6 @@ class Solution {
         return (n/2)-lps[n-1];
     }
 };
-
-
-//{ Driver Code Starts.
 int main() {
     int t;
     cin >> t;
