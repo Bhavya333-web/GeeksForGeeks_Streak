@@ -41,7 +41,6 @@ int main() {
         Solution ob;
         int ans = ob.minChar(str);
         cout << ans << endl;
-
         cout << "~"
              << "\n";
     }
