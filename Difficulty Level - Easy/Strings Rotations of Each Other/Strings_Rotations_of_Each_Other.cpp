@@ -8,9 +8,6 @@ class Solution {
         return s1.find(s2)!=string::npos;
     }
 };
-
-//{ Driver Code Starts.
-
 int main() {
     int t;
     cin >> t;
