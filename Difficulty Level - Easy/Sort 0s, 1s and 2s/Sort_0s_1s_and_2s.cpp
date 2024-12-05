@@ -3,15 +3,11 @@ using namespace std;
 class Solution {
   public:
     void sort012(vector<int>& arr) {
-        
         int n = arr.size() ;
-        
         int i = 0 ; 
         while(i < n && arr[i] == 0) i ++ ;
-        
         int j = n - 1 ;
         while(j > i && arr[j] == 2) j -- ;
-        
         int k = i ; 
         while(k <= j){
             
