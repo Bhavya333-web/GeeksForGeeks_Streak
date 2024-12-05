@@ -18,7 +18,6 @@ class Solution {
             if(arr[k] == 0){ swap(arr[i] , arr[k]) ; i ++ ; }
             else if(arr[k] == 2){ swap(arr[j] , arr[k]) ; j -- ; }
             else k ++ ;
-            
         }
     }
 };
