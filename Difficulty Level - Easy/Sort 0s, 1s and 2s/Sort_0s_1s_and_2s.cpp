@@ -23,16 +23,13 @@ class Solution {
     }
 };
 int main() {
-
     int t;
     cin >> t;
     cin.ignore();
     while (t--) {
-
         vector<int> a;
         string input;
         int num;
-
         getline(cin, input);
         stringstream s2(input);
         while (s2 >> num) {
