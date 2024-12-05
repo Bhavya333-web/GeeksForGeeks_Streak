@@ -37,12 +37,10 @@ int main() {
         }
         Solution ob;
         ob.sort012(a);
-
         int n = a.size();
         for (int i = 0; i < n; i++) {
             cout << a[i] << " ";
         }
-
         cout << endl;
         cout << "~" << endl;
     }
