@@ -10,10 +10,8 @@ class Solution {
         while(j > i && arr[j] == 2) j -- ;
         int k = i ; 
         while(k <= j){
-            
             while(i < k && arr[i] == 0) i ++ ;
             while(j > k && arr[j] == 2) j -- ;
-            
             k = max(i , k) ;
             if(k > j) break ;
             
