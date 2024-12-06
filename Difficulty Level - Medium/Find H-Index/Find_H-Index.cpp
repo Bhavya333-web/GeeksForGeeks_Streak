@@ -2,9 +2,9 @@
 using namespace std;
 class Solution {
   public:
-    // Function to find hIndex
+  
     int hIndex(vector<int>& citations) {
-        // code here
+     
        // Time Complexity: O(n)  | Space Complexity: O(n)
         int n = citations.size();
         vector<int> citarr(n+1,0);
