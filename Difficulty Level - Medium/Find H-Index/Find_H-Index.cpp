@@ -35,8 +35,6 @@ int main() {
         while (ss >> number) {
             arr.push_back(number);
         }
-
-        // Solution instance to invoke the function
         Solution ob;
         int result = ob.hIndex(arr);
 
