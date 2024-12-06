@@ -19,9 +19,6 @@ class Solution {
         return 0;
     }
 };
-
-//{ Driver Code Starts.
-
 int main() {
 
     int test_cases;
