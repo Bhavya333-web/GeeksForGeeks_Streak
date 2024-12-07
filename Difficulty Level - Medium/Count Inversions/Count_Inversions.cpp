@@ -7,8 +7,6 @@ class Solution {
         int j = mid + 1;  
         int k = left;     
         int invCount = 0; 
-
-        // Merge the two subarrays and count cross-inversions
         while (i <= mid && j <= right) {
             if (arr[i] <= arr[j]) {
                 temp[k++] = arr[i++];
