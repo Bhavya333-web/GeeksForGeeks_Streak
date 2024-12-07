@@ -3,10 +3,10 @@ using namespace std;
 class Solution {
   public:
     int mergeAndCount(vector<int>& arr, vector<int>& temp, int left, int mid, int right) {
-        int i = left;     // Starting index for left subarray
-        int j = mid + 1;  // Starting index for right subarray
-        int k = left;     // Starting index for temp array
-        int invCount = 0; // Count of inversions
+        int i = left;     
+        int j = mid + 1;  
+        int k = left;     
+        int invCount = 0; 
 
         // Merge the two subarrays and count cross-inversions
         while (i <= mid && j <= right) {
