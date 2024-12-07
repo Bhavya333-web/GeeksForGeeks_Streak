@@ -12,11 +12,10 @@ class Solution {
                 temp[k++] = arr[i++];
             } else {
                 temp[k++] = arr[j++];
-                invCount += (mid - i + 1); // Count inversions
+                invCount += (mid - i + 1); 
             }
         }
 
-        // Copy remaining elements of left subarray (if any)
         while (i <= mid) {
             temp[k++] = arr[i++];
         }
