@@ -38,13 +38,11 @@ class Solution {
         if (left < right) {
             int mid = left + (right - left) / 2;
 
-            // Count inversions in left subarray
+            
             invCount += mergeSortAndCount(arr, temp, left, mid);
 
-            // Count inversions in right subarray
             invCount += mergeSortAndCount(arr, temp, mid + 1, right);
 
-            // Count cross-inversions during merge
             invCount += mergeAndCount(arr, temp, left, mid, right);
         }
         return invCount;
