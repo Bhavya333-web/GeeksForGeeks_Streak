@@ -2,7 +2,6 @@
 using namespace std;
 class Solution {
   public:
-    // Function to count inversions in the array.
     int mergeAndCount(vector<int>& arr, vector<int>& temp, int left, int mid, int right) {
         int i = left;     // Starting index for left subarray
         int j = mid + 1;  // Starting index for right subarray
