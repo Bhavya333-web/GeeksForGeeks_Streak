@@ -17,8 +17,6 @@ class Solution {
           return ans;
     }
 };
-
-//{ Driver Code Starts.
 int main() {
     int tc;
     cin >> tc;
