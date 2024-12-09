@@ -7,7 +7,7 @@ class Solution {
   public:
     vector<vector<int>> insertInterval(vector<vector<int>> &intervals,
                                        vector<int> &newInterval) {
-        // code here
+        
         vector<vector<int>> ans;
         bool merged=false;
         int start=newInterval[0],end=newInterval[1];
