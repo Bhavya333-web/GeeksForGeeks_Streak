@@ -7,7 +7,7 @@ using namespace std;
 class Solution {
   public:
     int minRemoval(vector<vector<int>> &intervals) {
-        // code here
+       
         sort(intervals.begin(), intervals.end(), [](vector<int> &a, vector<int> &b) {
         return a[1] < b[1];
         // sort wrt to end time less
