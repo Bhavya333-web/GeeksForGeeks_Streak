@@ -10,7 +10,7 @@ class Solution {
        
         sort(intervals.begin(), intervals.end(), [](vector<int> &a, vector<int> &b) {
         return a[1] < b[1];
-        // sort wrt to end time less
+        
     });
         
         int prev=intervals[0][1];
