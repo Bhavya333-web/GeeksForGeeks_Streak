@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    // Function to count the number of occurrences of target
+    
     int countFreq(vector<int>& arr, int target) {
         int lo = lastOccurrence(arr, target);
         int fo = firstOccurrence(arr, target);
