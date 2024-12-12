@@ -13,7 +13,7 @@ public:
     }
 
 private:
-    // Method to find the first occurrence of the target element
+    
     int firstOccurrence(vector<int>& arr, int target) {
         int start = 0, end = arr.size() - 1, fo = -1;
         while (start <= end) {
