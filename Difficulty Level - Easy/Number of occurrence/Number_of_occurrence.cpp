@@ -29,8 +29,6 @@ private:
         }
         return fo;
     }
-
-    // Method to find the last occurrence of the target element
     int lastOccurrence(vector<int>& arr, int target) {
         int start = 0, end = arr.size() - 1, lo = -1;
         while (start <= end) {
