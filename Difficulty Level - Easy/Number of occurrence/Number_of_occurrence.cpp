@@ -1,6 +1,3 @@
-//{ Driver Code Starts
-// Initial Template for C++
-
 #include <iostream>
 #include <vector>
 using namespace std;
