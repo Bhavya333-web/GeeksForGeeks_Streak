@@ -17,16 +17,10 @@ class Solution {
     }
     int aggressiveCows(vector<int> &stalls, int k) {
         int n = stalls.size();
-        
-        // Step 1: Sort the stall positions to place cows sequentially
         sort(stalls.begin(), stalls.end());
-        
-        // Step 2: Initialize binary search range
-        int low = 0;                     // Smallest possible distance
-        int high = stalls[n - 1] - stalls[0];  // Maximum possible distance
-        int ans = -1;                    // Store the best valid distance found
-        
-        // Step 3: Binary Search on Answer
+        int low = 0;                     
+        int high = stalls[n - 1] - stalls[0];  
+        int ans = -1;                    
         while (low <= high) {
             int mid = low + (high - low) / 2;  // Calculate middle distance
             
