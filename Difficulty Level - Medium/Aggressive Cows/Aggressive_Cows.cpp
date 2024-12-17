@@ -22,14 +22,12 @@ class Solution {
         int high = stalls[n - 1] - stalls[0];  
         int ans = -1;                    
         while (low <= high) {
-            int mid = low + (high - low) / 2;  // Calculate middle distance
-            
-            // Step 4: Use the helper function to check feasibility
+            int mid = low + (high - low) / 2;  
             if (findAns(stalls, mid, k)) {
-                ans = mid;        // Update answer as the current mid is valid
-                low = mid + 1;    // Search for a larger minimum distance
+                ans = mid;       
+                low = mid + 1;    
             } else {
-                high = mid - 1;   // Search for a smaller distance
+                high = mid - 1;   
             }
         }
         
