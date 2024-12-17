@@ -7,10 +7,10 @@ class Solution {
         int prev = 0;           
         
         for (int i = 1; i < stalls.size(); ++i) {
-            // Place a cow only if the current stall is at least 'mid' away from the last placed cow
+            
             if (stalls[i] - stalls[prev] >= mid) {
-                ++cnt;          // Increment cow count
-                prev = i;       // Update the last placed cow's position
+                ++cnt;          
+                prev = i;      
             }
         }
         
