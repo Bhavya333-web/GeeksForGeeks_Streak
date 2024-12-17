@@ -31,7 +31,7 @@ class Solution {
             }
         }
         
-        return ans;  // Return the maximum minimum distance found
+        return ans;  
     }
 };
 
