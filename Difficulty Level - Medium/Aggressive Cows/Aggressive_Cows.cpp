@@ -3,8 +3,8 @@ using namespace std;
 class Solution {
   public:
     bool findAns(vector<int> &stalls, int mid, int k) {
-        int cnt = 1;            // Start by placing the first cow
-        int prev = 0;           // Keep track of the last placed cow's position
+        int cnt = 1;           
+        int prev = 0;           
         
         for (int i = 1; i < stalls.size(); ++i) {
             // Place a cow only if the current stall is at least 'mid' away from the last placed cow
