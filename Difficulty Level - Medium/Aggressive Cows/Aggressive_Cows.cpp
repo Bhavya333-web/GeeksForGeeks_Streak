@@ -2,9 +2,6 @@
 using namespace std;
 class Solution {
   public:
-
-   // Helper function to check if it is possible to place 'k' cows
-    // with at least 'mid' distance between them
     bool findAns(vector<int> &stalls, int mid, int k) {
         int cnt = 1;            // Start by placing the first cow
         int prev = 0;           // Keep track of the last placed cow's position
