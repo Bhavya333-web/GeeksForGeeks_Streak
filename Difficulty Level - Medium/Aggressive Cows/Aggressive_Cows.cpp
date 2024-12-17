@@ -13,12 +13,8 @@ class Solution {
                 prev = i;      
             }
         }
-        
-        // If the number of placed cows is >= k, return true
         return cnt >= k;
     }
-
-    // Main function to find the maximum minimum distance
     int aggressiveCows(vector<int> &stalls, int k) {
         int n = stalls.size();
         
