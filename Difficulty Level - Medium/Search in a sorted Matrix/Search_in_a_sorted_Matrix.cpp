@@ -8,7 +8,6 @@ using namespace std;
 
 class Solution {
   public:
-    // Function to search a given number in row-column sorted matrix.
     bool searchMatrix(vector<vector<int>> &mat, int x) {
         int r=mat.size();
         int c=mat[0].size();
