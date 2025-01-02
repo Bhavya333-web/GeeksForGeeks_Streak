@@ -31,7 +31,8 @@ class Solution {
 int main() {
     int tc;
     cin >> tc;
-    cin.ignore(); 
+    cin.ignore();
+     
     while (tc-- > 0) {
         string input;
         getline(cin, input); 
