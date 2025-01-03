@@ -46,8 +46,7 @@ int main() {
 
         int k;
         cin >> k;
-        cin.ignore(); // Ignore the newline after k
-
+        cin.ignore(); 
         Solution obj;
         cout << obj.subarrayXor(arr, k) << endl;
         cout << "~" << endl;
