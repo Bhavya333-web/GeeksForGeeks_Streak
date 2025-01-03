@@ -31,18 +31,17 @@ class Solution {
 int main() {
     int tc;
     cin >> tc;
-    cin.ignore(); // Ignore the newline after the number of test cases
-
+    cin.ignore(); 
     while (tc-- > 0) {
         string input;
-        getline(cin, input); // Read the whole line for the array
+        getline(cin, input); 
 
         stringstream ss(input);
         vector<int> arr;
         int num;
 
         while (ss >> num) {
-            arr.push_back(num); // Push numbers into the vector
+            arr.push_back(num); 
         }
 
         int k;
