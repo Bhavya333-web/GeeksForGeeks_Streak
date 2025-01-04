@@ -3,7 +3,6 @@
 using namespace std;
 
 
-// } Driver Code Ends
 class Solution {
   public:
     int countTriplets(vector<int> &a, int target) {
