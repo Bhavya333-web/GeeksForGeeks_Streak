@@ -8,16 +8,11 @@ using namespace std;
 class Solution {
   public:
     int countPairs(vector<int> &arr, int target) {
-        // Your code here
         int res = 0;
         sort(arr.begin(), arr.end());
         for (int i = 0; i < arr.size(); ++i) {
             int val = target - arr[i];
-            
-            // Find the first element that is NOT less than `val`.
             auto itr = lower_bound(arr.begin() + i + 1, arr.end(), val);
-            
-            // Count all elements before `itr`.
             res += itr - (arr.begin() + i + 1);
         }
         
