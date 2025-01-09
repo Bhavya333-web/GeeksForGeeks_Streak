@@ -29,10 +29,7 @@ class Solution {
                 
                 i++;
                 sum = arr[i];
-
-                //handled the scenario if last element is equal to target
-                // because everytime we are increasing "j" from "i+1"
-                //if "sum > target"
+                
                 if(sum == target){
                     return {i+1,i+1};
                 }
