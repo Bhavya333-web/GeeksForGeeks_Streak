@@ -18,8 +18,7 @@ class Solution {
         }
         
         while(i<n && j<n){
-            //handled the scenario if first element is equal to target
-           // because we are starting "j" from "i+1"
+        
             if(arr[i]==target){
                 return {i+1,i+1};
             }
